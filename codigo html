@@ -1,0 +1,216 @@
+<!doctype>
+<html>
+<head>
+<meta charset="utf-8">
+<title>formato de pag web</title>
+<meta name="description" content="esta pagina tendra archivos con contenidos..">
+<meta name="keywoords" content="formato pag web">
+<link rel="shortcut icon" type="10/jpg" href="10.jpg">
+</head>
+<style>
+*{
+	margin:0px;
+	padding:0px;
+}
+
+
+body{
+	padding:15px 15px 15px 15px;
+	background:#555555;
+}
+#header, #section, #nav, #aside,#footer{
+	display:block-inline;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}	
+#pagina{
+	background:url(04.jpg);
+	padding:10px;
+}
+#header{
+	color:#4BAC6E;
+	font-size:120px;
+	height:200px;
+	background-image:url(03.jpg);
+	margin:50px 30px 50px 30px;
+	border:5px outset orange;
+	padding:20px 50px 50px 130px;
+}
+#section{
+	display:inline-block;
+	width:79%;
+	border:10px double blue;
+	background-image:url(t7.jpg);
+	margin:5px 0px 0px 0px;
+	
+}
+#section:hover{
+	background-image:url(05.png);
+}
+#aside{
+	display:inline-block;
+	width:20%;
+	border:1px solid red;
+	padding:0px 2px 0px 20px;
+	
+}
+#aside div.aumenta_imagen img{
+    margin: 10px ;
+     -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+}
+#aside div.aumenta_imagen img:hover {
+    height: 400px;
+    width: 200px;
+    margin-left: 30px;
+}
+#footer{
+	width:100%;
+	clear:both;
+	border:2px ridge red;
+	color:orange;
+	background:url(09.jpg);
+	text-align:center;
+	
+	
+}
+#img1{
+	display:inline-block;
+	width:23%;
+	margin:10px 40px 10px 100px;
+	padding:10px 5px 10px 10px;
+	background:#AC4B4B;
+	-webkit-border-top-left-radius: 25px;
+	-webkit-border-top-right-radius: 25px;
+	-webkit-border-bottom-right-radius: 70px;
+	-webkit-border-bottom-left-radius: 14px;
+}
+#img1 img{
+	-webkit-border-top-left-radius: 25px;
+	-webkit-border-top-right-radius: 25px;
+	-webkit-border-bottom-right-radius: 70px;
+	-webkit-border-bottom-left-radius: 14px;
+}
+#img2{
+	display:inline-block;
+	width:23%;
+	margin:10px 70px 10px 50px;
+	padding:10px 5px 10px 10px;
+	background:#AC4B4B;
+	-webkit-border-top-left-radius: 25px;
+	-webkit-border-top-right-radius: 25px;
+	-webkit-border-bottom-right-radius: 70px;
+	-webkit-border-bottom-left-radius: 14px;
+}
+#img2 img{
+	-webkit-border-top-left-radius: 25px;
+	-webkit-border-top-right-radius: 25px;
+	-webkit-border-bottom-right-radius: 70px;
+	-webkit-border-bottom-left-radius: 14px;
+}
+#img3{
+	display:inline-block;
+	width:23%;
+	margin:10px 400px 10px 410px;
+	padding:10px 5px 10px 10px;
+	background:#AC4B4B;
+	-webkit-border-top-left-radius: 25px;
+	-webkit-border-top-right-radius: 25px;
+	-webkit-border-bottom-right-radius: 70px;
+	-webkit-border-bottom-left-radius: 14px;
+}
+#img3 img{
+	-webkit-border-top-left-radius: 25px;
+	-webkit-border-top-right-radius: 25px;
+	-webkit-border-bottom-right-radius: 70px;
+	-webkit-border-bottom-left-radius: 14px;
+}
+#img4{
+	display:inline-block;
+	width:23%;
+	margin:10px 100px 10px 100px;
+	padding:10px 5px 10px 10px;
+	background:#AC4B4B;
+	-webkit-border-top-left-radius: 25px;
+	-webkit-border-top-right-radius: 25px;
+	-webkit-border-bottom-right-radius: 70px;
+	-webkit-border-bottom-left-radius: 14px;
+}
+#img4 img{
+	-webkit-border-top-left-radius: 25px;
+	-webkit-border-top-right-radius: 25px;
+	-webkit-border-bottom-right-radius: 70px;
+	-webkit-border-bottom-left-radius: 14px;
+}
+#img5{
+	display:inline-block;
+	width:23%;
+	margin:10px 70px 10px 270px;
+	padding:10px 5px 10px 10px;
+	background:#AC4B4B;
+	-webkit-border-top-left-radius: 25px;
+	-webkit-border-top-right-radius: 25px;
+	-webkit-border-bottom-right-radius: 70px;
+	-webkit-border-bottom-left-radius: 14px;
+}
+#img5 img{
+	-webkit-border-top-left-radius: 25px;
+	-webkit-border-top-right-radius: 25px;
+	-webkit-border-bottom-right-radius: 70px;
+	-webkit-border-bottom-left-radius: 14px;
+}
+p{
+display:inline-block;
+color:white;
+margin:2px;
+padding:3px;
+border:2px dotted white;
+}
+
+</style>
+<body>
+<div id="pagina">
+<header id="header">ANDRES INIESTA 
+</header>
+<section id="section">
+<div id="img1"> 
+<img src="06.jpg" width="240" height="240"/>
+</div>
+<p>Nombre:	Andrés Iniesta Luján<br>
+Nacimiento	11 de mayo de 1984 (29 años)<br>
+Nacionalidad	España<br>
+Club actual	F. C. Barcelona<br>
+Numeración	8 FC Barcelona<br>
+6 Selección Española<br>
+Posición	Centrocampista<br>
+Estatura	1,70 metros<br>
+Partidos internacionales	941<br>
+Goles totales	11 (selección española)<br>
+Año del debut	2002<br>
+Club del debut	F. C. Barcelona</p>
+<div id="img2">
+<img src="07.jpeg" width="240" height="240"/>
+</div>
+<div id="img3">
+<img src="08.jpg" width="240" height="240"/>
+</div>
+<div id="img4">
+<img src="09.jpg" width="240" height="240"/>
+</div>
+<div id="img5">
+<img src="010.jpg" width="240" height="240"/>
+</div>
+</section>
+<aside id="aside"><P>ANDRES INIESTA</P>
+<div id="barra2">
+<div class="aumenta_imagen">
+	
+	<img src="t2.jpg" width="240" height="240"/>
+	<img src="t6.jpg" width="240" height="240"/>
+</aside>
+	</div>
+<footer id="footer">modelo de cajas css
+</footer>
+</div>
+</body>
+</html>
