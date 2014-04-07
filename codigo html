@@ -8,15 +8,7 @@
 <link rel="shortcut icon" type="10/jpg" href="10.jpg">
 </head>
 <style>
-*{
-	margin:0px;
-	padding:0px;
-}
-
-
-body{
-	padding:15px 15px 15px 15px;
-	background:#555555;
+borre unas lineas
 }
 #header, #section, #nav, #aside,#footer{
 	display:block-inline;
