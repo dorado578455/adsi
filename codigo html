@@ -15,10 +15,9 @@ borre unas lineas
 	-moz-box-sizing:border-box;
 	-webkit-box-sizing:border-box;
 }	
-#pagina{
-	background:url(04.jpg);
-	padding:10px;
-}
+alejandro
+hize un cambio
+
 #header{
 	color:#4BAC6E;
 	font-size:120px;
